@@ -14,7 +14,7 @@ class activello_social_widget extends WP_Widget
 
     function widget($args , $instance) {
     	extract($args);
-        $title = isset($instance['title']) ? $instance['title'] : esc_html__('Follow us' , 'activello');
+        $title = isset($instance['title']) ? $instance['title'] : esc_html__('Follow me' , 'activello');
 
       echo $before_widget;
       echo $before_title;

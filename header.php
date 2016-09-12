@@ -25,6 +25,7 @@
 
 <?php wp_head(); ?>
 
+<style>.social_icon{font-size:2em !important;}</style>
 </head>
 
 <body ng-app="contactApp" <?php body_class(); ?>>
